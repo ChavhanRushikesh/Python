@@ -5,11 +5,15 @@
 # * *
 # *
 
+
 def Patter(No):
-    for _ in range(No):            #Rows
-        for _ in range(No):          #columns
-            print("*",end=' ')
-        print() 
+    for i in range(No):             #Rows
+        for _ in range(No - i):
+            print("*", end=" ")
+        print()
+
+    # for i in range(No, 0, -1):
+    #     print("* " * i)
 
 def main():
     Patter(5)
