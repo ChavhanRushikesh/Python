@@ -1,0 +1,107 @@
+-----------------------------------------------------------------
+---------------------- Automation Report ------------------------
+-----------------------------------------------------------------
+File Name : Demo/A.doc and Checksum : d41d8cd98f00b204e9800998ecf8427e
+File Name : Demo/A.exe and Checksum : d41d8cd98f00b204e9800998ecf8427e
+File Name : Demo/B.doc and Checksum : d41d8cd98f00b204e9800998ecf8427e
+File Name : Demo/C.doc and Checksum : d41d8cd98f00b204e9800998ecf8427e
+File Name : Demo/TextDemo/B.exe and Checksum : d41d8cd98f00b204e9800998ecf8427e
+File Name : Demo/TextDemo/D.doc and Checksum : d41d8cd98f00b204e9800998ecf8427e
+File Name : Demo/TextDemo/E.doc and Checksum : d41d8cd98f00b204e9800998ecf8427e
+File Name : Demo/TextDemo/F.doc and Checksum : d41d8cd98f00b204e9800998ecf8427e
+-----------------------------------------------------------------
+--------- Thank you for using Rjs Directory_Automation ----------
+-----------------------------------------------------------------
+------------ Report Time : Sat Feb  7 01:12:44 2026 -------------
+-----------------------------------------------------------------
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ 
+Duplicate files:
+Demo/A.doc
+Demo/A.exe
+Demo/B.doc
+Demo/C.doc
+Demo/TextDemo/B.exe
+Demo/TextDemo/D.doc
+Demo/TextDemo/E.doc
+Demo/TextDemo/F.doc
+
+Exception : 'str' object has no attribute 'close'
+-----------------------------------------------------------------
+--------- Thank you for using Rjs Directory_Automation ----------
+-----------------------------------------------------------------
+------------ Report Time : Sat Feb  7 01:13:08 2026 -------------
+-----------------------------------------------------------------
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ 
+Duplicate files:
+Demo/A.doc
+Demo/A.exe
+Demo/B.doc
+Demo/C.doc
+Demo/TextDemo/B.exe
+Demo/TextDemo/D.doc
+Demo/TextDemo/E.doc
+Demo/TextDemo/F.doc
+
+Duplicate file names written to AutomationReports.log
+-----------------------------------------------------------------
+--------- Thank you for using Rjs Directory_Automation ----------
+-----------------------------------------------------------------
+------------ Report Time : Sat Feb  7 01:14:56 2026 -------------
+-----------------------------------------------------------------
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ 
+-----------------------------------------------------------------
+---------------------- Automation Report ------------------------
+-----------------------------------------------------------------
+Duplicate files:
+Demo/A.doc
+Demo/A.exe
+Demo/B.doc
+Demo/C.doc
+Demo/TextDemo/B.exe
+Demo/TextDemo/D.doc
+Demo/TextDemo/E.doc
+Demo/TextDemo/F.doc
+
+Duplicate file names written to AutomationReports.log
+-----------------------------------------------------------------
+--------- Thank you for using Rjs Directory_Automation ----------
+-----------------------------------------------------------------
+------------ Report Time : Sat Feb  7 01:15:49 2026 -------------
+-----------------------------------------------------------------
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ 
+-----------------------------------------------------------------
+---------------------- Automation Report ------------------------
+-----------------------------------------------------------------
+Demo/A.exe
+Demo/B.doc
+Demo/C.doc
+Demo/TextDemo/B.exe
+Demo/TextDemo/D.doc
+Demo/TextDemo/E.doc
+Demo/TextDemo/F.doc
+Duplicate files deleted: 7
+Log file created as AutomationReports.log
+-----------------------------------------------------------------
+--------- Thank you for using Rjs Directory_Automation ----------
+-----------------------------------------------------------------
+------------ Report Time : Sat Feb  7 01:16:16 2026 -------------
+-----------------------------------------------------------------
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ 
+-----------------------------------------------------------------
+---------------------- Automation Report ------------------------
+-----------------------------------------------------------------
+Duplicate files deleted: 0
+Log file created as AutomationReports.log
+Execution time: 0.00018596649169921875 seconds
+-----------------------------------------------------------------
+--------- Thank you for using Rjs Directory_Automation ----------
+-----------------------------------------------------------------
+------------ Report Time : Sat Feb  7 01:17:38 2026 -------------
+-----------------------------------------------------------------
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ 

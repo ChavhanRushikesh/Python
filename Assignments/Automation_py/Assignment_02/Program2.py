@@ -11,14 +11,18 @@
 #
 #/////////////////////////////////////////////////////////////////////////////////////////////
 """
-Design automation script which accept directory name and display checksum of all files.
-Usage: DirectoryChecksum.py "Demo"
+Design automation script which accept directory name and write names of duplicate files from that directory into log file
+named as Log.txt. Log.txt file should be created into current directory.
+
+Usage: DirectoryDusplicate.py "Demo" 
+Demo is name of directory.
 """
 import sys
 import time
-from AutomationModule import calculateChecksum, writeLog
+from AutomationModule import findDuplicates, writeLog
 
 def main():
+
     border = "-" * 65
     print(border)
     print("--------------------- Rjs Directory Automation ------------------")
@@ -29,17 +33,17 @@ def main():
         writeLog(logFile,border)
         writeLog(logFile,"---------------------- Automation Report ------------------------")
         writeLog(logFile,border)
-
+        
         if len(sys.argv) != 2:
             writeLog(logFile,"Invalid number of arguments.!!")
             writeLog(logFile,"Plese specify the name of directory and extention of file to search.!!")
             return
 
         directory_name = sys.argv[1]
-        calculateChecksum(directory_name,logFile)
+        findDuplicates(directory_name, logFile)
 
     except Exception as e:
-        writeLog(logFile,"Exception : " + e)
+        writeLog(logFile, "Exception : " + str(e))
 
     finally:
         writeLog(logFile, border)

@@ -11,12 +11,16 @@
 #
 #/////////////////////////////////////////////////////////////////////////////////////////////
 """
-Design automation script which accept directory name and display checksum of all files.
-Usage: DirectoryChecksum.py "Demo"
+Design automation script which accept directory name and delete all duplicate files from that directory. 
+Write names of duplicate files from that directory into log file named as Log.txt.
+Log.txt file should be created into current directory. Display execution time required for the script.
+
+Usage: DirectoryDusplicateRemoval.py "Demo"
+Demo is name of directory.
 """
 import sys
 import time
-from AutomationModule import calculateChecksum, writeLog
+from AutomationModule import removeDuplicates,writeLog
 
 def main():
     border = "-" * 65
@@ -35,11 +39,17 @@ def main():
             writeLog(logFile,"Plese specify the name of directory and extention of file to search.!!")
             return
 
+        start_time = time.time()
+
         directory_name = sys.argv[1]
-        calculateChecksum(directory_name,logFile)
+        removeDuplicates(directory_name,logFile)
+
+        end_time = time.time()
+
+        writeLog(logFile, f"Execution time: {end_time - start_time} seconds")
 
     except Exception as e:
-        writeLog(logFile,"Exception : " + e)
+        writeLog(logFile,"Exception : " + str(e))
 
     finally:
         writeLog(logFile, border)
