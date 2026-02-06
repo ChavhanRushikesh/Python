@@ -9,16 +9,19 @@
 #       * Perform validations before taking any action.
 #
 #/////////////////////////////////////////////////////////////////////////////////////////////
+"""
+Design automation script which accept two directory names. Copy all files from first directory into second directory. 
+Second directory should be created at run time.
 
-# Create user defined modules to store the functionality.
-# Design automation script which accept directory name and file extension from user. Display all
-# files with that extension.
-# Usage: python Program1.py "Demo" ".txt"
-# Demo is name of directory and .txt is the extension that we want to search.
+Usage: DirectoryCopy.py "Demo" "Temp"
 
+Demo is name of directory which is existing and contains files in it. We have to create new Directory as Temp and
+copy all files from Demo to Temp.
+
+"""
 import sys
 import time
-from Automation_Module import searchFiles , writeLog
+from Automation_Module import createDirectory, copyFiles, writeLog
 
 def main():
     border = "-" * 65
@@ -28,29 +31,22 @@ def main():
 
     logFile = "AutomationReports.log"
 
-    writeLog(logFile,border)
-    writeLog(logFile,"---------------------- Automation Report ------------------------")
-    writeLog(logFile,border)
     try:
-        if(len(sys.argv) != 3):
-            writeLog(logFile,"Invalid number of arguments.!!")
-            writeLog(logFile,"Plese specify the name of directory and extention of file to search.!!")
-            return
-        
-        directory = sys.argv[1]
-        extension = sys.argv[2]
+        writeLog(logFile, border)
+        writeLog(logFile,"---------------------- Automation Report ------------------------")
+        writeLog(logFile, border)
 
-        files = searchFiles(directory, extension, logFile)
+        mDirectory = sys.argv[1]
+        cDirectory = sys.argv[2]
 
-        if files:
-            writeLog(logFile,f"Files with {extension} extension in {directory} :")
-            for data in files:
-                writeLog(logFile,data)
-        else:
-            writeLog(logFile,f"No files with {extension} found in {directory}.!!")
+        createDirectory(cDirectory, logFile)
+        copyFiles(mDirectory, cDirectory, logFile)
+
+    except IndexError:
+        writeLog(logFile,"Invalid Numbers of Arguments")
 
     except Exception as e:
-        writeLog(logFile,"Exception : " + e)
+        print(f"Exception : ",e)
 
     finally:
         writeLog(logFile, border)

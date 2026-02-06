@@ -9,16 +9,18 @@
 #       * Perform validations before taking any action.
 #
 #/////////////////////////////////////////////////////////////////////////////////////////////
+"""
+Design automation script which accept directory name and two file extensions from user.
+Rename all files with first file extension with the second file extenntion.
 
-# Create user defined modules to store the functionality.
-# Design automation script which accept directory name and file extension from user. Display all
-# files with that extension.
-# Usage: python Program1.py "Demo" ".txt"
-# Demo is name of directory and .txt is the extension that we want to search.
+Usage: DirectoryRename.py "Demo" ".txt" ".doc"
 
+Demo is name of directory and .txt is the extension that we want to search and rename with .doc.
+After execution this script each .txt file gets renamed as .doc. as
+"""
 import sys
 import time
-from Automation_Module import searchFiles , writeLog
+from Automation_Module import searchFiles, renameFiles, writeLog
 
 def main():
     border = "-" * 65
@@ -28,29 +30,23 @@ def main():
 
     logFile = "AutomationReports.log"
 
-    writeLog(logFile,border)
-    writeLog(logFile,"---------------------- Automation Report ------------------------")
-    writeLog(logFile,border)
     try:
-        if(len(sys.argv) != 3):
-            writeLog(logFile,"Invalid number of arguments.!!")
-            writeLog(logFile,"Plese specify the name of directory and extention of file to search.!!")
-            return
-        
+        writeLog(logFile, border)
+        writeLog(logFile,"---------------------- Automation Report ------------------------")
+        writeLog(logFile, border)
+
         directory = sys.argv[1]
-        extension = sys.argv[2]
+        oldExt = sys.argv[2]
+        newExt = sys.argv[3]
 
-        files = searchFiles(directory, extension, logFile)
+        files = searchFiles(directory, oldExt, logFile)
+        renameFiles(files, oldExt, newExt, logFile)
 
-        if files:
-            writeLog(logFile,f"Files with {extension} extension in {directory} :")
-            for data in files:
-                writeLog(logFile,data)
-        else:
-            writeLog(logFile,f"No files with {extension} found in {directory}.!!")
+    except IndexError:
+        writeLog(logFile,"Invalid Numbers of Arguments")
 
     except Exception as e:
-        writeLog(logFile,"Exception : " + e)
+        print(f"Exception : ",e)
 
     finally:
         writeLog(logFile, border)
