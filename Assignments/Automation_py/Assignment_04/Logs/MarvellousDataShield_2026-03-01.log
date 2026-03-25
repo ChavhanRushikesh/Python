@@ -1,0 +1,75 @@
+2026-03-01 11:20:11,603 - INFO - --------------------------------------------------
+2026-03-01 11:20:11,603 - INFO - ----- Marvellous Data Shield system -----
+2026-03-01 11:20:11,603 - INFO - --------------------------------------------------
+2026-03-01 11:20:11,603 - INFO - Inside project logic. Time Interval: 1 minutes, Directory: Data
+2026-03-01 11:20:11,603 - INFO - --------------------------------------------------
+2026-03-01 11:20:11,604 - INFO - Data Shield system started successfully
+2026-03-01 11:20:11,604 - INFO - TimeInterval in minutes: 1
+2026-03-01 11:20:11,604 - INFO - Press Ctrl + C to stop the execution
+2026-03-01 11:20:11,604 - INFO - --------------------------------------------------
+2026-03-01 11:21:11,624 - INFO - --------------------------------------------------
+2026-03-01 11:21:11,624 - INFO - Backup process started at: Sun Mar  1 11:21:11 2026
+2026-03-01 11:21:11,624 - INFO - --------------------------------------------------
+2026-03-01 11:21:11,624 - INFO - Default extensions to ignore: {'.log', '.exe', '.tmp'}
+2026-03-01 11:21:11,625 - INFO - User defined extensions loaded from extensions.txt: {'.exe', '.log', '.tmp', '.logc', '.dfg', '.fns'}
+2026-03-01 11:21:11,625 - INFO - Total extensions to ignore (Default + User-defined): {'.exe', '.log', '.tmp', '.logc', '.dfg', '.fns'}
+2026-03-01 11:21:11,625 - INFO - Backup folder prepared
+2026-03-01 11:21:11,627 - INFO - Ignored file: dvnsvd.log
+2026-03-01 11:21:11,627 - INFO - Ignored file: ssfsfs.exe
+2026-03-01 11:21:11,627 - INFO - Ignored file: vsvsvvk.fns
+2026-03-01 11:21:11,628 - INFO - Ignored file: erj.dfg
+2026-03-01 11:21:11,628 - INFO - Ignored file: fsjdfnsljfn.logc
+2026-03-01 11:21:11,628 - INFO - Files copied: 9
+2026-03-01 11:21:11,631 - INFO - Zip file created: MarvellousBackup_2026-03-01_11-21-11.zip
+2026-03-01 11:21:14,203 - ERROR - Email sending failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c70fa8302absm9749932a12.29 - gsmtp')
+2026-03-01 11:21:14,203 - ERROR - Backup process failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c70fa8302absm9749932a12.29 - gsmtp')
+2026-03-01 11:31:43,299 - INFO - --------------------------------------------------
+2026-03-01 11:31:43,299 - INFO - ----- Marvellous Data Shield system -----
+2026-03-01 11:31:43,299 - INFO - --------------------------------------------------
+2026-03-01 11:31:43,299 - ERROR - Invalid option provided. Use --h or --u for help
+2026-03-01 11:31:43,299 - INFO - --------------------------------------------------
+2026-03-01 11:31:43,299 - INFO - --------- Thank you for using our script ---------
+2026-03-01 11:31:43,299 - INFO - --------------------------------------------------
+2026-03-01 11:31:55,097 - INFO - --------------------------------------------------
+2026-03-01 11:31:55,097 - INFO - ----- Marvellous Data Shield system -----
+2026-03-01 11:31:55,097 - INFO - --------------------------------------------------
+2026-03-01 11:31:55,097 - INFO - Backup history file does not exist
+2026-03-01 11:31:55,097 - INFO - Backup history displayed
+2026-03-01 11:31:55,097 - INFO - --------------------------------------------------
+2026-03-01 11:31:55,097 - INFO - --------- Thank you for using our script ---------
+2026-03-01 11:31:55,097 - INFO - --------------------------------------------------
+2026-03-01 11:32:31,798 - INFO - --------------------------------------------------
+2026-03-01 11:32:31,798 - INFO - ----- Marvellous Data Shield system -----
+2026-03-01 11:32:31,798 - INFO - --------------------------------------------------
+2026-03-01 11:32:31,798 - INFO - Inside project logic. Time Interval: 1 minutes, Directory: Data
+2026-03-01 11:32:31,798 - INFO - --------------------------------------------------
+2026-03-01 11:32:31,798 - INFO - Data Shield system started successfully
+2026-03-01 11:32:31,798 - INFO - TimeInterval in minutes: 1
+2026-03-01 11:32:31,798 - INFO - Press Ctrl + C to stop the execution
+2026-03-01 11:32:31,799 - INFO - --------------------------------------------------
+2026-03-01 11:33:31,816 - INFO - --------------------------------------------------
+2026-03-01 11:33:31,817 - INFO - Backup process started at: Sun Mar  1 11:33:31 2026
+2026-03-01 11:33:31,817 - INFO - --------------------------------------------------
+2026-03-01 11:33:31,817 - INFO - Default extensions to ignore: {'.log', '.exe', '.tmp'}
+2026-03-01 11:33:31,817 - INFO - User defined extensions loaded from extensions.txt: {'.exe', '.dfg', '.fns', '.log', '.tmp', '.logc'}
+2026-03-01 11:33:31,818 - INFO - Total extensions to ignore (Default + User-defined): {'.exe', '.dfg', '.fns', '.log', '.tmp', '.logc'}
+2026-03-01 11:33:31,818 - INFO - Backup folder prepared
+2026-03-01 11:33:31,820 - INFO - Ignored file: dvnsvd.log
+2026-03-01 11:33:31,821 - INFO - Ignored file: ssfsfs.exe
+2026-03-01 11:33:31,821 - INFO - Ignored file: vsvsvvk.fns
+2026-03-01 11:33:31,822 - INFO - Ignored file: erj.dfg
+2026-03-01 11:33:31,822 - INFO - Ignored file: fsjdfnsljfn.logc
+2026-03-01 11:33:31,824 - INFO - Files copied: 3
+2026-03-01 11:33:31,827 - INFO - Zip file created: MarvellousBackup_2026-03-01_11-33-31.zip
+2026-03-01 11:33:31,827 - INFO - Backup history file created
+2026-03-01 11:33:31,827 - INFO - Backup history saved: 2026-03-01 11:33:31, Files: 3, Size: 0.0 MB
+2026-03-01 11:33:34,815 - ERROR - Email sending failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2adfb69fa5asm104153065ad.60 - gsmtp')
+2026-03-01 11:33:34,815 - ERROR - Backup process failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2adfb69fa5asm104153065ad.60 - gsmtp')
+2026-03-01 11:34:08,151 - INFO - --------------------------------------------------
+2026-03-01 11:34:08,151 - INFO - ----- Marvellous Data Shield system -----
+2026-03-01 11:34:08,151 - INFO - --------------------------------------------------
+2026-03-01 11:34:08,151 - INFO - Displayed backup history (1 backups)
+2026-03-01 11:34:08,151 - INFO - Backup history displayed
+2026-03-01 11:34:08,151 - INFO - --------------------------------------------------
+2026-03-01 11:34:08,151 - INFO - --------- Thank you for using our script ---------
+2026-03-01 11:34:08,151 - INFO - --------------------------------------------------

@@ -1,0 +1,80 @@
+--------------------------------------------------
+Memory Usage Report
+Log created: Mon Feb 23 23:16:10 2026
+--------------------------------------------------
+PID: 1748, Name: firefox-esr
+RSS(MB): 594.97, VMS(MB): 12183.82
+Memory Percent: 7.706041961480921, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 5794, Name: code
+RSS(MB): 556.76, VMS(MB): 1448362.27
+Memory Percent: 7.211184061740619, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 5402, Name: code
+RSS(MB): 518.07, VMS(MB): 1427502.34
+Memory Percent: 6.710052531536377, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 2003, Name: Isolated Web Co
+RSS(MB): 479.67, VMS(MB): 2924.16
+Memory Percent: 6.212715535886937, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 2014, Name: Isolated Web Co
+RSS(MB): 357.79, VMS(MB): 2786.47
+Memory Percent: 4.634138567295058, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 4238, Name: code
+RSS(MB): 306.78, VMS(MB): 1429029.30
+Memory Percent: 3.9734342106128575, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 12774, Name: Isolated Web Co
+RSS(MB): 275.27, VMS(MB): 2719.24
+Memory Percent: 3.5652434801042436, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 4174, Name: code
+RSS(MB): 196.22, VMS(MB): 1427238.88
+Memory Percent: 2.541478057218545, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 1945, Name: WebExtensions
+RSS(MB): 157.61, VMS(MB): 19164.21
+Memory Percent: 2.04130780910152, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+PID: 4209, Name: code
+RSS(MB): 148.94, VMS(MB): 33735.02
+Memory Percent: 1.9290907738674958, Timestamp: 2026-02-23_23-16-10
+--------------------------------------------------
+Top 10 CPU Consuming Processes
+PID: 4238, Name: code, CPU%: 10.9, Timestamp: 2026-02-23_23-16-11
+PID: 4209, Name: code, CPU%: 7.9, Timestamp: 2026-02-23_23-16-11
+PID: 879, Name: Xorg, CPU%: 4.9, Timestamp: 2026-02-23_23-16-11
+PID: 14485, Name: python, CPU%: 2.0, Timestamp: 2026-02-23_23-16-11
+PID: 64, Name: kworker/u32:1-events_unbound, CPU%: 1.0, Timestamp: 2026-02-23_23-16-11
+PID: 1226, Name: xfwm4, CPU%: 1.0, Timestamp: 2026-02-23_23-16-11
+PID: 4174, Name: code, CPU%: 1.0, Timestamp: 2026-02-23_23-16-11
+PID: 4298, Name: code, CPU%: 1.0, Timestamp: 2026-02-23_23-16-11
+PID: 5403, Name: code, CPU%: 1.0, Timestamp: 2026-02-23_23-16-11
+PID: 1, Name: systemd, CPU%: 0.0, Timestamp: 2026-02-23_23-16-11
+--------------------------------------------------
+Top 10 Thread Count Processes
+PID: 1748, Name: firefox-esr, Threads: 118, Timestamp: 2026-02-23_23-16-11
+PID: 4174, Name: code, Threads: 38, Timestamp: 2026-02-23_23-16-11
+PID: 2003, Name: Isolated Web Co, Threads: 31, Timestamp: 2026-02-23_23-16-11
+PID: 2014, Name: Isolated Web Co, Threads: 28, Timestamp: 2026-02-23_23-16-11
+PID: 12774, Name: Isolated Web Co, Threads: 28, Timestamp: 2026-02-23_23-16-11
+PID: 1870, Name: Privileged Cont, Threads: 27, Timestamp: 2026-02-23_23-16-11
+PID: 1945, Name: WebExtensions, Threads: 27, Timestamp: 2026-02-23_23-16-11
+PID: 4298, Name: code, Threads: 23, Timestamp: 2026-02-23_23-16-11
+PID: 5403, Name: code, Threads: 23, Timestamp: 2026-02-23_23-16-11
+PID: 5402, Name: code, Threads: 21, Timestamp: 2026-02-23_23-16-11
+--------------------------------------------------
+Top 10 Open File Descriptor Processes
+PID: 1090, Name: dbus-daemon, Open Files: 266, Timestamp: 2026-02-23_23-16-11
+PID: 1748, Name: firefox-esr, Open Files: 175, Timestamp: 2026-02-23_23-16-11
+PID: 4174, Name: code, Open Files: 156, Timestamp: 2026-02-23_23-16-11
+PID: 1068, Name: systemd, Open Files: 95, Timestamp: 2026-02-23_23-16-11
+PID: 1196, Name: dbus-daemon, Open Files: 87, Timestamp: 2026-02-23_23-16-11
+PID: 5402, Name: code, Open Files: 69, Timestamp: 2026-02-23_23-16-11
+PID: 5794, Name: code, Open Files: 65, Timestamp: 2026-02-23_23-16-11
+PID: 4238, Name: code, Open Files: 63, Timestamp: 2026-02-23_23-16-11
+PID: 1092, Name: pipewire, Open Files: 62, Timestamp: 2026-02-23_23-16-11
+PID: 4209, Name: code, Open Files: 61, Timestamp: 2026-02-23_23-16-11
+--------------------------------------------------
