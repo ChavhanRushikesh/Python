@@ -1,0 +1,6 @@
+.tmp
+.log
+.exe
+.fns
+.dfg
+.logc
