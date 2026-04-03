@@ -81,7 +81,7 @@ def LinearRegressionModelTrain():
     print(Border)
     X = df[["TV","radio","newspaper"]]
     Y = df['sales']
-    
+     
     print("Independent Variable (X) : ",X.shape)
     print("Dependent Variable (Y) : ",Y.shape)
     
